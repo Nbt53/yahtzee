@@ -1,7 +1,6 @@
-import('./PlayerScore.css')
 import { v4 as uuid } from 'uuid';
-import { drawScoreBoard } from './jsxFunction';
-import { hands, single } from './jsxVariables';
+import { drawScoreBoard } from '../public/scripts/jsxFunction';
+import { hands, single } from '../public/scripts/jsxVariables.tsx';
 
 export default function PlayerScore() {
     single

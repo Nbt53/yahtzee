@@ -1,5 +1,3 @@
-import('./die.css')
-
 export default function Die({dieKey, dieValue}) {
     return (
         <>

@@ -1,7 +1,5 @@
 import PlayerScore from './PlayerScore'
 
-import('./ScoreBoard.css')
-
 export default function ScoreBoard() {
 
     return (

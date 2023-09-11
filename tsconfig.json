@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "public/scripts/jsxFunction.tsx", "public/scripts/functions.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

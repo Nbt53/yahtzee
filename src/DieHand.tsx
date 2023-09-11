@@ -1,5 +1,4 @@
 import Die from "./Die";
-import('./DieHand.css')
 import PropTypes from 'prop-types';
 import { v4 as uuid } from 'uuid';
 

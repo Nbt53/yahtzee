@@ -1,12 +1,11 @@
 import DieHand from "./DieHand";
-import("./Board.css")
 import { v4 as uuid } from 'uuid';
-import { roll } from "./functions";
+import { roll } from "../public/scripts/functions.tsx";
 import { useEffect, useState } from "react";
 import GameSpace from "./GameSpace";
 import ScoreBoard from "./ScoreBoard";
-import { calculateScores, createDice, createPlayer, totalValue } from "./jsxFunction";
-import { hands, single } from "./jsxVariables";
+import { calculateScores, createDice, createPlayer, totalValue } from "../public/scripts/jsxFunction";
+import { hands, single } from "../public/scripts/jsxVariables.tsx";
 
 export default function Board() {
     const [playerOne, setPlayerOne] = useState(createPlayer(single, hands))

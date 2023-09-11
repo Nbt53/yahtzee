@@ -1,5 +1,4 @@
-import PropTypes from 'prop-types';
-import('./GameSpace.css')
+
 
 export default function GameSpace({ dice }) {
     return (
@@ -9,13 +8,3 @@ export default function GameSpace({ dice }) {
 
     )
 }
-
-GameSpace.propTypes = {
-    dice: PropTypes.arrayOf(
-        PropTypes.shape({
-            dieKey: PropTypes.string.isRequired,
-            value: PropTypes.number.isRequired,
-            kept: PropTypes.bool.isRequired
-        })
-    ).isRequired,
-};
