@@ -1,5 +1,4 @@
 import('./die.css')
-import PropTypes from 'prop-types';
 
 export default function Die({dieKey, dieValue}) {
     return (
@@ -10,7 +9,4 @@ export default function Die({dieKey, dieValue}) {
 }
 
 
-Die.propTypes = {
-        dieKey: PropTypes.string.isRequired,
-        dieValue: PropTypes.number
-      };
+
