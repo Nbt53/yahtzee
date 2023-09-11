@@ -1,0 +1,31 @@
+.player-score {
+    width: 50%;
+    height: 100%;
+}
+
+.score {
+    display: block;
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 1px solid black;
+}
+
+.score-container{
+    width: 50%;
+}
+
+.single-score{
+    width: 100%;
+}
+
+.single-totals{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    
+}
+
+.single-total{
+    display: flex; 
+    height: 15%;
+}

@@ -1,0 +1,32 @@
+Rules
+-highest value of numbers ( value) ( bonus for over 75)
+- 3 of a kind(value), 4 of a kind ( value), full house(25), yahtzee(50, 100 if more than one), straight (40), small straight(30)
+-5 dice each
+- can change two times
+
+game journey
+-select v computer or user
+-random starting player
+-roll dice-...
+
+
+Logic
+user-
+
+computer-
+
+state management
+setDieValue?
+
+components-
+app-no state
+board - score, hand values, score chosen, win or lose
+score board - score, points, player names
+die hand - hand value
+
+
+design
+-dice
+-animations
+-board
+

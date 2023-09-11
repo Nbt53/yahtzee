@@ -1,0 +1,22 @@
+.board {
+    display: flex;
+    width: 80rem;
+    height: 40rem;
+    background-color: green;
+}
+
+.score-board-container {
+    height: 94%;
+    width: 90%;
+    padding: 1rem;
+}
+
+.board-left {
+    height: 100%;
+    width: 70%;
+}
+
+.board-right {
+    height: 100%;
+    width: 30%;
+}
